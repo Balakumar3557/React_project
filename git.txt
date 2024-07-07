@@ -92,3 +92,84 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 git add . (or) git add package.json
+
+ git commit -m "first commit and change git.txt" 
+[master 54a3d61] first commit and change git.txt
+ Committer: Deva Raj <devaraj@Devas-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 20 files changed, 0 insertions(+), 0 deletions(-)
+ mode change 100644 => 100755 React.txt
+ mode change 100644 => 100755 git.txt
+ mode change 100644 => 100755 src/app/Home/Home.css
+ mode change 100644 => 100755 src/app/Home/Home.jsx
+ mode change 100644 => 100755 src/app/authentication/Login/Login.css
+ mode change 100644 => 100755 src/app/authentication/Login/Login.jsx
+ mode change 100644 => 100755 src/app/authentication/Registration/Registration.css
+ mode change 100644 => 100755 src/app/authentication/Registration/Registration.jsx
+ mode change 100644 => 100755 src/app/main/Footer/Footer.css
+ mode change 100644 => 100755 src/app/main/Footer/Footer.jsx
+ mode change 100644 => 100755 src/app/main/Sidebar/Sidebar.css
+ mode change 100644 => 100755 src/app/main/Sidebar/Sidebar.jsx
+ mode change 100644 => 100755 src/assets/css/bootstrap/_media.css
+ mode change 100644 => 100755 src/assets/css/bootstrap/mixins/_border-radius.css
+ mode change 100644 => 100755 src/assets/css/bootstrap/mixins/_screen-reader.css
+ mode change 100644 => 100755 src/assets/css/bootstrap/mixins/_visibility.css
+ mode change 100644 => 100755 src/assets/css/bootstrap/utilities/_stretched-link.css
+ mode change 100644 => 100755 src/assets/css/style.css
+ mode change 100644 => 100755 src/assets/images/logo.jpg
+ mode change 100644 => 100755 src/assets/scss/style.scss
+
+git branch --- > command
+* master 
+
+         how to create branch command
+git branch -m main --- > command
+git branch        
+* main
+
+      how to  add remote 
+git remote add origin (repository url) --- > command
+      eg; git remote add origin https://github.com/Balakumar3557/React_project.git
+
+git remote --- > command
+origin
+
+git remote -v --- > command
+origin  https://github.com/Balakumar3557/React_project.git (fetch)
+origin  https://github.com/Balakumar3557/React_project.git (push)
+
+      how to Remove remote
+git remote Remove origin --- > command
+
+git push origin main  --- > command
+
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 1.59 KiB | 13.00 KiB/s, done.
+Total 18 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote:      https://github.com/Balakumar3557/React_project/pull/new/main
+remote: 
+To https://github.com/Balakumar3557/React_project.git
+ * [new branch]      main -> main
+
+------ >  clone command < -------
+
+git clone (repository url) --- > command
+
+   eg; git clone https://github.com/Balakumar3557/React_project.git
+
