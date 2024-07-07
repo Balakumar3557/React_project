@@ -1,0 +1,27 @@
+          --- font ---
+npm i font-awesome
+
+          --- react-router-dom --- react-bootstrap --- bootstrap ---
+npm i react-router-dom react-bootstrap bootstrap   
+
+          --- bootstrap-icons ---
+npm i bootstrap-icons 
+
+
+----- > App.js
+          import --- > file
+
+         **** react-router-dom ****
+
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+} from 'react-router-dom'
+
+          **** react-bootstrap bootstrap bootstrap-icons ****
+          
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap-icons/font/bootstrap-icons.css";
+import 'bootstrap/dist/js/bootstrap.js';
+import 'font-awesome/css/font-awesome.min.css';
